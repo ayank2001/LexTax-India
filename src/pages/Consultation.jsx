@@ -1,0 +1,39 @@
+import { motion } from 'framer-motion'
+import ContactForm from '../components/ui/ContactForm'
+import { CheckCircle2 } from 'lucide-react'
+
+export default function Consultation() {
+  return (
+    <>
+      <section className="bg-hero-mesh pt-28 md:pt-32 pb-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-10 items-center">
+          <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }}>
+            <p className="text-gold-light text-sm tracking-[0.2em] uppercase font-semibold mb-3">
+              Free Consultation
+            </p>
+            <h1 className="font-display text-4xl md:text-5xl text-white font-semibold leading-tight">
+              Book a conversation with the LEXTAX desk
+            </h1>
+            <p className="mt-4 text-white/70 text-lg leading-relaxed">
+              Tell us what you’re building. We’ll recommend the right filings, timelines and package — with no obligation.
+            </p>
+            <ul className="mt-8 space-y-3">
+              {[
+                'No-pressure intro call',
+                'Clear document checklist',
+                'Transparent fee outline',
+                'Pan-India digital support',
+              ].map((item) => (
+                <li key={item} className="flex items-center gap-2 text-white/85">
+                  <CheckCircle2 className="w-5 h-5 text-gold" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </motion.div>
+          <ContactForm source="consultation" defaultService="Free Consultation" />
+        </div>
+      </section>
+    </>
+  )
+}
