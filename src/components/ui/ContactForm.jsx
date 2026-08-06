@@ -55,6 +55,7 @@ export default function ContactForm({
           email: form.email,
           service: form.service || 'General Inquiry',
           message: form.message,
+          query: form.message,
           source,
         },
         publicKey,
