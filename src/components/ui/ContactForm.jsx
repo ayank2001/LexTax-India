@@ -7,7 +7,6 @@ import { services } from '../../data/siteData'
 const SERVICE_OPTIONS = [
   'General Inquiry',
   ...services.map((s) => s.title),
-  'Free Consultation',
 ]
 
 export default function ContactForm({

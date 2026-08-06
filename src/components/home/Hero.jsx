@@ -12,7 +12,7 @@ const floating = [
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen bg-hero-mesh overflow-hidden pt-24 md:pt-28">
+    <section className="relative min-h-screen bg-hero-mesh overflow-hidden pt-32 md:pt-36">
       <div className="absolute inset-0 opacity-30 pointer-events-none">
         <div className="absolute top-1/4 left-1/4 w-72 h-72 rounded-full bg-gold/20 blur-3xl animate-float-slow" />
         <div className="absolute bottom-1/4 right-1/5 w-96 h-96 rounded-full bg-navy-light/50 blur-3xl animate-float" />
@@ -29,8 +29,8 @@ export default function Hero() {
               Legal • Tax • Compliance Solutions
             </p>
             <h1 className="font-display text-4xl sm:text-5xl lg:text-[3.4rem] xl:text-6xl font-semibold text-white leading-[1.12]">
-              India&apos;s Trusted{' '}
-              <span className="text-gradient-gold">Legal & Tax</span> Platform
+              A Private platform for{' '}
+              <span className="text-gradient-gold">Legal, Tax and Business</span> Services
             </h1>
             <p className="mt-5 text-base md:text-lg text-white/70 max-w-xl leading-relaxed">
               Helping Startups, MSMEs & Enterprises manage Legal, Taxation & Compliance under one roof.
@@ -53,7 +53,7 @@ export default function Hero() {
 
             <div className="mt-8 flex flex-wrap gap-3">
               <Button to="/consultation" size="lg">
-                Book Free Consultation
+                Book Consultation
               </Button>
               <Button to="/services" variant="secondary" size="lg">
                 Explore Services <ArrowRight className="w-4 h-4" />

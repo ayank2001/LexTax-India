@@ -7,7 +7,7 @@ import { CheckCircle2 } from 'lucide-react'
 export default function About() {
   return (
     <>
-      <section className="bg-hero-mesh pt-28 md:pt-32 pb-20">
+      <section className="bg-hero-mesh pt-36 md:pt-40 pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -47,7 +47,7 @@ export default function About() {
               without the noise of a traditional consultancy website.
             </p>
             <Button to="/consultation" className="mt-8">
-              Book Free Consultation
+              Book Consultation
             </Button>
           </div>
 

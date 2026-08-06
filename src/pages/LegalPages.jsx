@@ -1,7 +1,7 @@
 function PolicyLayout({ title, children }) {
   return (
     <>
-      <section className="bg-hero-mesh pt-28 md:pt-32 pb-12">
+      <section className="bg-hero-mesh pt-36 md:pt-40 pb-12">
         <div className="max-w-3xl mx-auto px-4">
           <h1 className="font-display text-4xl md:text-5xl text-white font-semibold">{title}</h1>
           <p className="text-white/50 text-sm mt-3">Last updated: August 2026</p>

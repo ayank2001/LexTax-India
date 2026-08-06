@@ -31,7 +31,7 @@ export default function AboutTeaser() {
             <p className="mt-4 text-xs text-navy/40">
               Prefer to jump in?{' '}
               <Link to="/consultation" className="text-gold-dark font-medium hover:underline">
-                Book a free consultation
+                Book a consultation
               </Link>
             </p>
           </motion.div>

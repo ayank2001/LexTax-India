@@ -5,7 +5,7 @@ import { CheckCircle2 } from 'lucide-react'
 export default function Consultation() {
   return (
     <>
-      <section className="bg-hero-mesh pt-28 md:pt-32 pb-16">
+      <section className="bg-hero-mesh pt-36 md:pt-40 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-10 items-center">
           <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }}>
             <p className="text-gold-light text-sm tracking-[0.2em] uppercase font-semibold mb-3">
@@ -31,7 +31,7 @@ export default function Consultation() {
               ))}
             </ul>
           </motion.div>
-          <ContactForm source="consultation" defaultService="Free Consultation" />
+          <ContactForm source="consultation" />
         </div>
       </section>
     </>

@@ -18,7 +18,7 @@ export default function ServiceDetail() {
 
   return (
     <>
-      <section className="bg-hero-mesh pt-28 md:pt-32 pb-16">
+      <section className="bg-hero-mesh pt-36 md:pt-40 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav className="flex items-center gap-2 text-sm text-white/50 mb-6">
             <Link to="/" className="hover:text-gold">Home</Link>

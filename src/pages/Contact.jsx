@@ -8,7 +8,7 @@ export default function Contact() {
 
   return (
     <>
-      <section className="bg-hero-mesh pt-28 md:pt-32 pb-16">
+      <section className="bg-hero-mesh pt-36 md:pt-40 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} className="max-w-3xl">
             <p className="text-gold-light text-sm tracking-[0.2em] uppercase font-semibold mb-3">Contact</p>
