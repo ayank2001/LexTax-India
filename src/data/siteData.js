@@ -29,7 +29,7 @@ export const siteConfig = {
   phone: import.meta.env.VITE_PHONE_NUMBER || '+91 9805468933',
   whatsapp: import.meta.env.VITE_WHATSAPP_NUMBER || '919805468933',
   email: import.meta.env.VITE_CONTACT_EMAIL || 'lextaxindia@gmail.com',
-  address: 'Paonta Sahib, Himachal Pradesh, India',
+  address: 'Shop No. 1, Batapul Chowk, Paonta Sahib – 173025, Himachal Pradesh, India',
   hours: 'Mon – Sat, 10:00 AM – 6:00 PM IST',
   mapEmbedUrl:
     'https://www.google.com/maps?q=Paonta+Sahib,+Himachal+Pradesh,+India&hl=en&z=14&output=embed',
@@ -555,6 +555,6 @@ export const footerLinks = {
   legal: [
     { label: 'Privacy Policy', href: '/privacy-policy' },
     { label: 'Terms & Conditions', href: '/terms' },
-    { label: 'Refund Policy', href: '/refund-policy' },
+    { label: 'Refund & Cancellation', href: '/refund-policy' },
   ],
 }
