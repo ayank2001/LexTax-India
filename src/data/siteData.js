@@ -425,7 +425,6 @@ export const industries = [
 
 export const stats = [
   { value: 15000, suffix: '+', label: 'Businesses Served' },
-  { value: 98, suffix: '%', label: 'Success Rate' },
   { value: 24, suffix: ' Hrs', label: 'Average Response' },
   { value: 99, suffix: '+', label: 'Professional Experts' },
 ]
