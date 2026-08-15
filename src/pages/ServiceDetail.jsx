@@ -104,7 +104,7 @@ export default function ServiceDetail() {
             </ul>
           </div>
           <div>
-            <SectionHeading align="left" eyebrow="Packages" title="Transparent pricing" className="mb-6" />
+            <SectionHeading align="left" eyebrow="Packages" title="What’s included" className="mb-6" />
             <div className="space-y-4">
               {(service.packages || []).map((pkg) => (
                 <div
@@ -115,14 +115,9 @@ export default function ServiceDetail() {
                       : 'glass border-white/70'
                   }`}
                 >
-                  <div className="flex items-baseline justify-between gap-3">
-                    <h3 className={`font-display text-xl font-semibold ${pkg.popular ? 'text-white' : 'text-navy'}`}>
-                      {pkg.name}
-                    </h3>
-                    <span className={`font-semibold ${pkg.popular ? 'text-gold-light' : 'text-gold-dark'}`}>
-                      {pkg.price}
-                    </span>
-                  </div>
+                  <h3 className={`font-display text-xl font-semibold ${pkg.popular ? 'text-white' : 'text-navy'}`}>
+                    {pkg.name}
+                  </h3>
                   <ul className="mt-3 space-y-1.5">
                     {pkg.items.map((item) => (
                       <li key={item} className={`text-sm ${pkg.popular ? 'text-white/70' : 'text-navy/65'}`}>

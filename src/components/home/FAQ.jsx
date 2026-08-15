@@ -9,7 +9,7 @@ export default function FAQ() {
         <SectionHeading
           eyebrow="FAQ"
           title="Answers before you book"
-          subtitle="Quick clarity on timelines, documents, pricing and how our digital process works."
+          subtitle="Quick clarity on timelines, documents and how our digital process works."
         />
         <Accordion items={faqs} />
       </div>

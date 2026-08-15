@@ -14,7 +14,7 @@ export default function Pricing() {
               Clear packages. Custom quotes when you need them.
             </h1>
             <p className="mt-4 text-white/70 text-lg">
-              Government fees are always disclosed separately. Choose a starting tier or request an enterprise retainer.
+              Government fees are always disclosed separately. Share your requirement and we’ll send a quote.
             </p>
           </motion.div>
         </div>

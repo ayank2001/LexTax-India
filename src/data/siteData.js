@@ -487,7 +487,7 @@ export const faqs = [
   },
   {
     q: 'How much does GST registration cost?',
-    a: 'Assisted GST registration starts from ₹999. Any statutory charges are disclosed before we proceed.',
+    a: 'Fees depend on your requirement. Statutory charges, if any, are disclosed before we proceed. Book a consultation for a quote.',
   },
   {
     q: 'Can services be completed online?',

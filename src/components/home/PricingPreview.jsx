@@ -9,19 +9,15 @@ export default function PricingPreview() {
     <section className="py-20 md:py-28 bg-section-soft">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          eyebrow="Pricing"
+          eyebrow="Packages"
           title="Clear packages for common needs"
-          subtitle="Transparent starting prices — government fees, if any, are shared upfront before work begins."
+          subtitle="Government fees, if any, are shared upfront before work begins. Get a custom quote on consultation."
         />
 
         <div className="grid md:grid-cols-3 gap-6 items-stretch">
           {pricingTiers.map((tier, i) => (
             <GlassCard key={tier.name} delay={i * 0.08} className="relative flex flex-col">
               <h3 className="font-display text-2xl font-semibold text-navy leading-snug">{tier.name}</h3>
-              <div className="mt-3 flex items-baseline gap-1">
-                <span className="font-display text-4xl font-semibold text-navy">{tier.price}</span>
-                {tier.note ? <span className="text-navy/50">{tier.note}</span> : null}
-              </div>
               <p className="mt-3 text-sm leading-relaxed text-navy/60">{tier.desc}</p>
               <ul className="mt-6 space-y-2.5 flex-1">
                 {tier.features.map((f) => (
