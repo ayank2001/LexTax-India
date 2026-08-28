@@ -611,13 +611,13 @@ export function RefundPolicy() {
         ]}
       />
 
-      <H2>2. Seven-Day Review Period</H2>
+      <H2>2. Four-Hour Review Period</H2>
       <p>
         Where payment has been made but the client has not provided confirmation to proceed and no substantive
-        service has commenced, a cancellation request should preferably be submitted within 7 calendar days of
+        service has commenced, a cancellation request should preferably be submitted within 4 hours of
         payment.
       </p>
-      <p>The seven-day period does not override mandatory rights available under applicable law.</p>
+      <p>The four-hour period does not override mandatory rights available under applicable law.</p>
 
       <H2>3. After Confirmation and Commencement</H2>
       <p>
