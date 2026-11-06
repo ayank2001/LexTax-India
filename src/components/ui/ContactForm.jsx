@@ -10,7 +10,7 @@ const SERVICE_OPTIONS = [
   ...services.map((s) => s.title),
 ]
 
-const CONSULTATION_FEE = 99
+const CONSULTATION_FEE = 199
 
 export default function ContactForm({
   compact = false,

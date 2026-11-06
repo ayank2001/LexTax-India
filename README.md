@@ -10,7 +10,7 @@ Premium React + Vite + Tailwind showcase website for **LEXTAX INDIA** — a digi
 - Framer Motion
 - Lucide icons
 - EmailJS (enquiry forms)
-- Cashfree Payment Gateway (₹99 consultation booking)
+- Cashfree Payment Gateway (₹199 consultation booking)
 - Vercel serverless API (`/api`)
 
 ## Getting started
@@ -43,7 +43,7 @@ VITE_EMAILJS_PUBLIC_KEY=...
 
 Until EmailJS is configured, enquiry forms still show a success state (demo fallback).
 
-## Cashfree on the live site (consultation fee ₹99)
+## Cashfree on the live site (consultation fee ₹199)
 
 Local `.env` is not used by Vercel. After this code is deployed, add these in **Vercel → Project → Settings → Environment Variables** (Production), then redeploy:
 
@@ -53,7 +53,7 @@ CASHFREE_SECRET_KEY=your_secret_key
 CASHFREE_ENV=production
 ```
 
-`CASHFREE_ENV` must match the key: `cfsk_ma_prod_*` → `production`, test keys → `sandbox`. Production keys charge a real ₹99.
+`CASHFREE_ENV` must match the key: `cfsk_ma_prod_*` → `production`, test keys → `sandbox`. Production keys charge a real ₹199.
 
 You do not need `SITE_URL` on Vercel. After payment, Cashfree sends the customer back to the same domain they booked on (`/payment/status`).
 
@@ -66,12 +66,12 @@ You do not need `SITE_URL` on Vercel. After payment, Cashfree sends the customer
    - `https://lextax-india.com`
    - your `*.vercel.app` domain if you also test the Vercel URL
 4. Save. Domain approval can take a short time before checkout accepts the site.
-5. After a test payment, confirm the ₹99 order under **Payments / Transactions**. Refund it from there if it was only a test.
+5. After a test payment, confirm the ₹199 order under **Payments / Transactions**. Refund it from there if it was only a test.
 
 ### Booking flow
 
 1. User opens **Book Consultation** → `/consultation`
-2. Submits details → server creates a ₹99 Cashfree order
+2. Submits details → server creates a ₹199 Cashfree order
 3. User pays on Cashfree checkout
 4. Return URL `/payment/status?order_id=...` verifies `PAID` server-side
 5. Only then is the booking treated as successful (EmailJS notification)

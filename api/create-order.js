@@ -1,4 +1,4 @@
-const CONSULTATION_FEE = 99
+const CONSULTATION_FEE = 199
 const API_VERSION = '2025-01-01'
 
 function getSiteUrl(req) {

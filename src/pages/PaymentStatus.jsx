@@ -33,7 +33,7 @@ async function sendBookingEmail(draft, orderId) {
       source: draft.source || 'consultation',
       payment_status: 'PAID',
       order_id: orderId,
-      amount: '99',
+      amount: '199',
     },
     publicKey,
   )
@@ -88,7 +88,7 @@ export default function PaymentStatus() {
           setState({
             status: 'success',
             message:
-              'Payment of ₹99 received. Your consultation is booked — our desk will reach out within one business day.',
+              'Payment of ₹199 received. Your consultation is booked — our desk will reach out within one business day.',
           })
           return
         }
