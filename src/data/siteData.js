@@ -495,7 +495,7 @@ export const faqs = [
   },
   {
     q: 'Do you provide legal consultation?',
-    a: 'Yes. We offer professional consultation and advocate referral support. Book a free intro call to begin.',
+    a: 'Yes. We offer professional consultation and advocate referral support. Book a consultation online for ₹99 to begin.',
   },
 ]
 

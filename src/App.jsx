@@ -9,6 +9,7 @@ import Pricing from './pages/Pricing'
 import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import Consultation from './pages/Consultation'
+import PaymentStatus from './pages/PaymentStatus'
 import { PrivacyPolicy, Terms, RefundPolicy } from './pages/LegalPages'
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
             <Route path="blog" element={<Blog />} />
             <Route path="contact" element={<Contact />} />
             <Route path="consultation" element={<Consultation />} />
+            <Route path="payment/status" element={<PaymentStatus />} />
             <Route path="privacy-policy" element={<PrivacyPolicy />} />
             <Route path="terms" element={<Terms />} />
             <Route path="refund-policy" element={<RefundPolicy />} />

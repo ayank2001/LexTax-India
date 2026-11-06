@@ -75,7 +75,7 @@ export default function ContactCTA() {
             <p className="text-xs text-navy/40">
               Prefer a dedicated booking flow?{' '}
               <Link to="/consultation" className="text-gold-dark font-medium hover:underline">
-                Open free consultation
+                Book paid consultation
               </Link>
               .
             </p>
